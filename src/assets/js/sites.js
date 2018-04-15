@@ -8,7 +8,7 @@ let sites = [
     {
         name: "Little Alchemy 2",
         URL: "https://littlealchemy2.com/",
-        description: "The website is all about trying to collect all the possible permutations available by combining different base elements. The idea basically was like the old alchemy to use the basic mechanics and build 100 of elements by ourselves.",
+        description: "The website is all about trying to collect all the possible permutations available by combining different base elements. The idea basically was like the old alchemy to use the basic mechanics and build hundreds of elements by ourselves.",
         logo: ""
     },
     {
