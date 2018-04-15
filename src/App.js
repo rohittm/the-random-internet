@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import sites from './assets/js/sites';
-import logo from './assets/img/logo.png'
-import $ from 'jquery';
+import gradients from './assets/js/gradients';
 
 class App extends Component {
 
-  
+  state = {
+    siteName: '',
+    siteURL: '',
+    siteDescription: '',
+  };
+
   componentWillMount() {
 		return this.state;
 	}
@@ -16,53 +20,61 @@ class App extends Component {
 
   render() {
 
-    const onClickButton = () => {
-      let number_of_sites = sites.length;
-      let site = Math.floor(Math.random() * number_of_sites);
-      this.siteName = sites[site].name;
-      this.siteURL = sites[site].URL;
-      this.siteDescription = sites[site].description;
-      $('#modal-siteName').text(this.siteName);
-      $('#modal-siteDescription').html(this.siteDescription);
-      $("#modal-goButton").attr("href", this.siteURL);
+    const onClickButton = (event) => {
+      event.preventDefault();
+      const number_of_sites = sites.length;
+      const site = Math.floor( Math.random() * number_of_sites );
+      const siteName = sites[site].name;
+      this.setState({ siteName });
+      const siteURL = sites[site].URL;
+      this.setState({ siteURL });
+      const siteDescription = sites[site].description;
+      this.setState({ siteDescription });
+    };
+
+    const numColor = Math.floor( Math.random() * ( gradients.length ) );
+    const color = gradients[numColor].colors;
+    const backgroundGradient = {
+      background: `linear-gradient( to right, ${color} )`,
     };
 
     return (
       <div className="body">
-        <header className="header">
-          <img src={logo} alt="The Random Internet logo" className="logo" />
-        </header>
-        <section className="content">
-          <p className="intro">
-            Entering here means entering the randomness present in the <del>Galaxy</del>... <del>Nopes, in the Universe</del>...
-            Well random can never be defined. You are just one click away from visiting the undiscovered gems
-            of the internet. Click the button below to drive away in the unknown (or, maybe some known to you 😅 ), but certainly interesting parts of the internet.
-          </p>
-          <div className="click-button">
-              <button className="click-button-openmodal" data-toggle="modal" data-target="#siteModal" onClick={onClickButton}>
-                Let's Start!
-              </button>
+        <section id="header" className="content" style={backgroundGradient}>
+          <div className="inner">
+            <span className="icon"></span>
+            <h1 className="title">The <strong>Random</strong> Internet</h1>
+            <p className="description">You are just one click away from visiting the undiscovered gems of the internet.</p>
+            <ul className="actions">
+              <li>
+                <button className="button" data-toggle="modal" data-target="#aboutModal">About</button>
+              </li>
+              <li>
+                <button className="button" data-toggle="modal" data-target="#siteModal" onClick={onClickButton}>Discover</button>
+              </li>
+            </ul>
           </div>
-          <div className="modal fade" id="siteModal" tabIndex="-1" role="dialog" aria-labelledby="siteModalLabel" aria-hidden="true">
+        </section>
+        <div className="modal fade" id="siteModal" tabIndex="-1" role="dialog" aria-labelledby="siteModalLabel" aria-hidden="true">
             <div className="modal-dialog" role="document">
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title" id="siteeModalLabel">The Website you are going to visit is...</h5>
+                  <h5 className="modal-title" id="siteeModalLabel">The website you are going to visit is...</h5>
                   <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div className="modal-body">
-                  <h2><strong id="modal-siteName">Name</strong></h2>
-                  {<p id="modal-siteDescription">Website description will be updated soon! <span role="img" aria-labelledby="smile emoji">😊</span></p>}
+                  <h2><strong id="modal-siteName">{ this.state.siteName || 'Name' }</strong></h2>
+                  <p id="modal-siteDescription">{ this.state.siteDescription || 'Website description will be updated soon!' }</p>
                   <div id="modal-siteURL">
-                    <a id="modal-goButton" target="_blank">
-                      <button id="modal-letsGo"className="click-button-alt">Let's Go!</button>
+                    <a id="modal-goButton" target="_blank" href={ this.state.siteURL || '#' }>
+                      <button id="modal-letsGo" className="button">Discover</button>
                     </a>
                   </div>
                 </div>
                 <div className="modal-footer">
-                  <a href="#next" onClick={onClickButton}>I might want to visit something else...</a>
+                  <a href="/" onClick={onClickButton}>I want to visit something else...</a>
                 </div>
               </div>
             </div>
@@ -81,34 +93,13 @@ class App extends Component {
                     You can use this website anytime you want to. The main purpose of The Random Internet is to utilize the time whenever you are using the internet (or, on a break from your work, or whatever <span role="img" aria-labelledby="shy emoji">😅</span>) and don't know what to surf.
                     The sites here are cool, interesting (AFAIK), and most importantly, impeccible usage of your time.
                   </p>
-                  <p>Don't believe me? You can look for yourself by click the big, "Let's Start" button on the homepage. Or, if you want, you can have your money back (Only, if you paid). Talking of money <span role="img" aria-labelledby="money emoji">🤑</span>, you can donate me (or, buy me a coffee, <del>here</del> [Donate page in progress] <span role="img" aria-labelledby="shy emoji">😅</span>).</p>
-                  <p>I have created this website using <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React Js</a> and hosted it on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
-                  <p><span id="little-note"><strong>NOTE</strong>: I don't hold ownership of any of the websites you will be visiting through this website. Also, I don't monetize from this website and this is purely <strong>Not-For-Profit</strong> project. The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</span></p>
+                  <p>Don't believe me? You can look for yourself by click the big, "Discover" button. Or, if you want, you can have your money back (only, if you paid). Talking of money <span role="img" aria-labelledby="money emoji">🤑</span>, you can donate me (or, buy me a coffee, <del>here</del> [Donate page in progress] <span role="img" aria-labelledby="shy emoji">😅</span>).</p>
+                  <p>The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</p>
+                  <p>Gradients from <a href="https://uigradients.com/" rel="noopener noreferrer" target="_blank">uiGradients</a></p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <footer>
-          <div className="footer">
-            <div className="footer-left">
-              <div className="footer-social">
-                <a href="https://twitter.com/rohittm" target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-twitter"></i>
-                </a>
-                <a href="https://github.com/rohittm" target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-github"></i>
-                </a>
-                <a href="#about" data-toggle="modal" data-target="#aboutModal">
-                  <span className="footer-menu">About</span>
-                </a>
-              </div>
-            </div>
-            <div className="footer-right">
-              <p>Brought to you by <a href="https://rohitmotwani.com">Rohit Motwani</a></p>
-            </div>
-          </div>
-        </footer>
       </div>
     );
   }

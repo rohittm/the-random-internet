@@ -191,5 +191,6 @@ let sites = [
         description: "This website is a recommendable place for all the science and math lovers. It has a YouTube channel with more than 10 million subscribers and focuses on jaw-dropping educational content. The creator Michael Stevens has a brilliant method of teaching and it is the best way possible.",
         logo: ""
     }
-    ];
+];
+
 export default sites;
