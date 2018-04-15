@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,700');
+
+* {
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #7b1fa2;
+  color: #ffffff;
+}
+
+.body {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title {
+  font-size: 3.5em;
+  font-variant: small-caps;
+  font-weight: 700;
+}
+
+.logo {
+  width: 400px;
+}
+
+.header img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.intro {
+  margin: 5% 15%;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content {
+  margin-bottom: 80px;
+}
+
+.click-button {
+  width: 300px;
+  height: 80px;
+  background-color: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  color: #7b1fa2;
+  border-radius: 60px;
+  border: 5px solid transparent;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  outline: none;
+}
+
+.click-button:hover {
+  border: 5px solid #cd00ff;
+  color: #cd00ff;
+}
+
+button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.click-button-alt {
+  width: 300px;
+  height: 80px;
+  background-color: #7b1fa2;
+  position: relative;
+  margin: 0 auto;
+  color: #ffffff;
+  border-radius: 60px;
+  border: 5px solid #7b1fa2;
+  font-size: 1.5em;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.click-button-alt:hover {
+  border: 5px solid #cd00ff;
+}
+
+.click-button-openmodal:hover {
+  color: #cd00ff;
+}
+
+.click-button-openmodal {
+  background: none;
+  border: none;
+  color: #7b1fa2;
+  padding: 1.5%;
+  font-size: 2.5em;
+  margin: 0;
+  width: 100%;
+}
+
+.modal-body, .modal-title, .modal-footer a {
+  color: #7b1fa2;
+}
+
+.footer {
+  background-color: #000000;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  margin-bottom: 0px;
+}
+
+.footer-left {
+  margin-bottom: -7px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #7b1fa2;
+}
+
+.footer-social {
+  font-size: 30px;
+}
+
+.footer-social a {
+  padding: 0 10px;
+}
+
+.footer-menu {
+  font-size: 18px;
+}
+
+#little-note {
+  font-size: 12px;
+  line-height: 0.1;
+}
+
+@media (max-width: 500px) {
+  .intro {
+    font-size: 1.2em;
+  }
+  
+  .logo {
+    width: 300px;
+  }
+
+  .click-button {
+    width: 200px;
+    height: 70px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    color: #7b1fa2;
+    border-radius: 60px;
+  }
+
+  .click-button-alt {
+    width: 200px;
+    height: 70px;
+    background-color: #7b1fa2;
+    position: relative;
+    margin: 0 auto;
+    color: #ffffff;
+    border-radius: 60px;
+  }
+
+  .click-button-openmodal {
+    padding: 5%;
+    font-size: 1.7em;
+  }
+
+  .modal-title {
+    font-size: 0.8em;
+  }
+
+  .modal-body h2 {
+    font-size: 1.2em;
+  }
+  
+  .footer {
+    height: 60px;
+  }
+
+  .footer-left {
+    display: block;
+    float: none;
+    left: 0;
+  }
+
+  .footer-right {
+    display: block;
+    float: none;
+    right: 0;
+  }
+}
