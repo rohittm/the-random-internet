@@ -82,6 +82,7 @@ class App extends Component {
                     The sites here are cool, interesting (AFAIK), and most importantly, impeccible usage of your time.
                   </p>
                   <p>Don't believe me? You can look for yourself by click the big, "Let's Start" button on the homepage. Or, if you want, you can have your money back (Only, if you paid). Talking of money <span role="img" aria-labelledby="money emoji">🤑</span>, you can donate me (or, buy me a coffee, <del>here</del> [Donate page in progress] <span role="img" aria-labelledby="shy emoji">😅</span>).</p>
+                  <p>I have created this website using <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React Js</a> and hosted it on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.</p>
                   <p><span id="little-note"><strong>NOTE</strong>: I don't hold ownership of any of the websites you will be visiting through this website. Also, I don't monetize from this website and this is purely <strong>Not-For-Profit</strong> project. The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</span></p>
                 </div>
               </div>
