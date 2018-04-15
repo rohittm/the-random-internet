@@ -126,3 +126,12 @@
 .modal .button:hover {
   background-color: #ef5e4a;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 4em 1em 0 1em;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    min-height: 100vh;
+  }
+}
