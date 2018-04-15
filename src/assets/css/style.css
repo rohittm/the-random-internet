@@ -4,6 +4,14 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
 .content {
   padding: 8em 3em 8em 3em;
   color: rgba(255, 255, 255, 0.75);
