@@ -31,6 +31,7 @@ button::-moz-focus-inner {
 
 .content::before {
   background-color: rgba(0,0,0,0.2);
+  position: fixed;
 }
 
 .content .inner {
