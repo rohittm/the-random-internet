@@ -2,199 +2,193 @@ let sites = [
     {
         name: "Little Alchemy",
         URL: "https://littlealchemy.com/",
-        description: "This one is a fun little time killer. As its name suggests, the website deals with the process of transformation you achieve when you start mixing different things. You start with Earth, Fire, Water, and Air. The goal is to create as many different materials or objects as possible. For example, earth and air will form dust.",
+        description: "The website leads to a drag and drop game where players can combine the elements, and then the results of those combinations, into hundreds of items including ghosts, dinosaurs, and spaceships and you can to create the entire world with them.",
         logo: ""
     },
     {
         name: "Little Alchemy 2",
         URL: "https://littlealchemy2.com/",
-        description: "This one is a fun little time killer. As its name suggests, the website deals with the process of transformation you achieve when you start mixing different things. You start with Earth, Fire, Water, and Air. The goal is to create as many different materials or objects as possible. For example, earth and air will form dust.",
+        description: "The website is all about trying to collect all the possible permutations available by combining different base elements. The idea basically was like the old alchemy to use the basic mechanics and build 100 of elements by ourselves.",
         logo: ""
     },
     {
         name: "Mental Floss",
         URL: "http://mentalfloss.com/",
-        description: "Mental Floss is a cool website which tells you the hidden stories behind the popular happenings around the world. They cover everything from science to history to technology to pop culture. Prepare your mind to blown away by learning fascinating facts and hidden elements behind things which you thought you already know of.",
+        description: "A page where knowledge junkies come to get their fix of trivia-tastic information and enhance it. It gives entertainment news, human interest, health ,and beauty tips, etc. It gives fun and interesting facts that can blow up your mind",
         logo: ""
     },
     {
         name: "Vieuus",
         URL: "http://www.vieuus.com/",
-        description: "If you are sick of watching cat videos on YouTube and YouTube’s trending page is delivering the similar content to you, go visit the Vieuus. This is a website which curates content uploaded on YouTube to provide you with quality videos.",
+        description: "This website is a repository of the best quality videos. You can browse the website by the most popular trailers or movie trailers that will be launch. It is a great place if you are a movie lover and want to watch the explicit content.",
         logo: ""
     },
     {
         name: "A Good Movie to Watch",
         URL: "https://agoodmovietowatch.com/",
-        description: "We all know how difficult finding a good movie to watch can be. It happens with me all the time and I always have to watch the same few movies over and over again. This website is a boon to people like me. They have a highly curated list of movies which you can select based on genre, mood, or just randomly.",
+        description: "The website is a time solver when you have an urge to watch a movie and you are unaware of it. It is nonetheless than a friend who can suggest the best of movies to watch with an appropriate description that might steal your attention.",
         logo: ""
     },
     {
         name: "MUBI",
         URL: "https://mubi.com/showing",
-        description: "Continuing on the topic of movies, if you are someone who is overwhelmed by the sheer number of movies in any catalog, and cannot decide what to watch, this one if for you. The website only hosts 30 movies at a time, with a single movie added and removed daily. This gives you a highly curated and small list of the option you can easily choose from.",
+        description: "The website is a renowned one as it deals with qualitative movies with only 30 movies hosted on their website for once. The movies are added and removed on a daily basis to keep updated with the fresh content. This makes the life really easy.",
         logo: ""
     },
     {
         name: "The Moth",
         URL: "https://www.themoth.org/",
-        description: "If you love the art of storytelling, you are going to love this website. The website houses real life stories told by the people themselves. It also has a podcast which features all the stories told across the world on Moth stages. These are literally stories for your ears.",
+        description: "The website as the name say moth – true stories told live is an inspirational webpage a masterpiece for the storytellers as well as the story listeners. These stories are told wide across the Moth which serves as a platform for the one who is in need of it.",
         logo: ""
     },
     {
         name: "XKCD",
         URL: "https://xkcd.com/",
-        description: "The website contains original satirical comic strips relating to romance, math, and language. You will laugh so hard that tears will come out of eyes. If you love maths you are especially going to enjoy this one.",
+        description: "A webcomic of romance, sarcasm, math, and language. It frequently features jokes related to popular culture. It is something for everyone out there which is very relatable.",
         logo: ""
     },
     {
         name: "The Odd 1s Out",
         URL: "http://theodd1sout.com/comic/",
-        description: "Another comic strip website which is really hilarious. The comics are a satirical take on everyday life questions and just funny stuff. They also have a corresponding YouTube channel if you are interested.",
+        description: "This website has a comic illustration for all the humorous ones out there. It makes good use of satire to get a huge audience. The content can make you roll on the floor laughing because the smallest of contents carries the most of the humor.",
         logo: ""
     },
     {
         name: "BoredPanda",
         URL: "http://www.boredpanda.com/",
-        description: "The website deals with everything funny in the world of internet. The site mainly focuses on photo heavy listicle contents. The articles are really fun to read. The panda might be bored but you will never be.",
+        description: "The name might include bored but nothing can be more interesting than this website. It is a master when it comes to art, design and photography community for creative people. It is the best time killer because the reward is creative and artistic.",
         logo: ""
     },
     {
         name: "Cracked",
         URL: "http://www.cracked.com/",
-        description: "Another similar website which deals heavily in listicle funny content. The site uses a lot of freelance writers making sure that you will never run out of funny content. This will surely crack you up.",
+        description: "The website focuses on articles, images, videos, and personal experiences that are going to drive you so, so, crazy dear friend. It is a whole bunch of funny stuff. The articles are very refreshing and hilarious.",
         logo: ""
     },
     {
         name: "Don't Even Reply",
         URL: "http://www.dontevenreply.com/",
-        description: "One must have a lot of free time on his hand if he replies to every classified ad posted on Craigslist. Well, the website owner seems to have that time and the email exchange is hilarious. You will love it.",
+        description: "The website has a really funny content with the email exchanges that are displayed there. The website owner seems to have a lot of spare time and spreads some hilarious chats over here.",
         logo: ""
     },
     {
         name: "Cool Interesting Stuff",
         URL: "http://coolinterestingstuff.com/",
-        description: "As the name suggests the website is the bank of interesting stuffs which are mostly mysteries. You should not take the content on its face value, but you can use it as a cool time killer.",
+        description: "This website is a house of some hidden mysteries that is really mind-blowing. The site frequently features a collection of unexplained, strange, and odd mysteries. People who are looking for some adventure and thrill across the internet here you are with the boon.",
         logo: ""
     },
     {
         name: "Wait But Why",
         URL: "https://waitbutwhy.com/",
-        description: "The website is pretty cool and deals with normal news and other content related to life. Some simple stick figures are used to explain the topics in a funny way. The website surely seems eccentric and funny.",
+        description: "This website hosts some really cool stuff and the content is much more fascinating. Whatever it says is really eccentric and will make you Goosebumps.",
         logo: ""
     },
     {
         name: "This Is My Website Now",
         URL: "http://www.thisismywebsitenow.com/",
-        description: "The website truly kills your time. It is just a collection of small games which you can play on your browser. Effective for less than 10 minutes of usage, it’s good for a short break.",
+        description: "This website is a repository of small and time killing games which are the best if you are feeling low and feel to boost up. It displays high scores and points every time you play and gives you some chilling time.",
         logo: ""
     },
     {
         name: "The Oatmeal",
         URL: "http://theoatmeal.com/",
-        description: "Of all the comic strip websites I have visited, this is the funniest. You never guess what the ending or the punch line of the comics will be. One thing is sure, however, that you will laugh every few second.",
+        description: "This website is a beautifully created comic website which will keep your eyesight and your life happy. The comics are on random stuff like music, weather, life and even on cats.",
         logo: ""
     },
     {
         name: "The Onion",
         URL: "http://www.theonion.com",
-        description: "Considered as the pioneer of satirical news coverage, the Onion is still the best among its class. The Onion inspired a generation of writers to deliver even the hardest of news in the funniest way possible. Check them out for your daily dose.",
+        description: "The website delivers the news publications and it has inspired many editors to write in an appropriate way. Even you can find humor in the most serious of its content.",
         logo: ""
     },
     {
         name: "GIPHY",
         URL: "https://giphy.com/",
-        description: "GIPHY houses the most popular GIFs which are circulated over million times on the internet. They are a way of expressing yourself in a funny and inoffensive manner. Use some GIFs to make your Twitter game strong.",
+        description: "This is the best place if you are looking for gifs to kill your friends' satire because you have a better one. You can discover the best of gifs here and keep sharing it.",
         logo: ""
     },
     {
         name: "Oddee",
         URL: "http://www.oddee.com/",
-        description: "The Website Focuses on the odd, bizarre and strange things of the world and brings you unique article which is different from those on BuzzFeed. Although the format is same, the content is fairly different. A good alternative to BuzzFeed and a great time killer.",
+        description: "The website is a weird trove of all the odd and latest things out there in the universe. It has the weirdest content and drives you nuts. If you are filled with craziness and an odd seeker, you are most welcome.",
         logo: ""
     },
     {
         name: "ZergNet",
         URL: "http://www.zergnet.com",
-        description: "ZergNet does not offer its original content but hosts the content from the best publishers around the world. The content mainly focuses on movies, tv-series and other entertainment related stuff. A good place to discover quality articles.",
+        description: "This website hosts some good content gathered from forums all across the world. It focuses on movies, gaming, entertainment, styling, and some cool stuff. Check out the latest bizarre news here.",
         logo: ""
     },
     {
         name: "This Is Why I Am Broke",
         URL: "https://www.thisiswhyimbroke.com/",
-        description: "This is a great website for discovering new gift ideas which are distinct. The products range from a few dollars to a few thousand. There&#8217;s something for everyone here.",
+        description: "If you are looking for best gifts, you are at the right place. The gift ideas are the most affordable ones because they are for the ones who believe in memories and not some costly gifts. The website displays the coolest stuff you can find and buy on the web.",
         logo: ""
     },
     {
         name: "Forgetify",
         URL: "http://forgotify.com/",
-        description: "No body can deny that Spotify is one of the best places to discover music. Still, the vast catalog favors popular artist. Fogetify helps you discover artists who are not that popular but produce great music. A great place to discover new music and artists.",
+        description: "The website helps you to remember and listen to the songs that have almost being forgotten from Spotify, the best music application. It basically allows users to experience the four million songs (that's 20 percent of the content library) that have a zero popularity rating on the world's premier music streaming service.",
         logo: ""
     },
     {
         name: "Attack Of the Cute",
         URL: "http://attackofthecute.com/",
-        description: "Attack of the Cute is a simple website Which shows you the cute pictures of different animals. A great place to hangout for people who like to go “awwww”.",
+        description: "There are a lot of animal lovers out there who keep updating status and stories of their pet ones. The website displays the cute pictures of the animals. This will make you go “awwww”.",
         logo: ""
     },
     {
         name: "Akinator",
         URL: "http://en.akinator.com/",
-        description: "The website is magic or rather feels like one. You can think of any character in this entire world and through a series of question, it will deduce the name. Don’t believe me, go try for yourself.",
+        description: "This website displays a genie and asks you questions about the character you are thinking of and give you a quick result. It is really fascinating and magical. Isn’t it? Let’s explore.",
         logo: ""
     },
     {
         name: "Flight Radar 24",
         URL: "https://www.flightradar24.com/",
-        description: "This a flight tracker website that shows air traffic in real time.The yellow plane icons that you see are the planes flying currently. Not only this website shows the airplanes but it also tells you the details about each and every plane.",
+        description: "This website is a flight tracker website and displays the import flight navigations in real time. The plane along with the descriptions are shown on a map.",
         logo: ""
     },
     {
         name: "The Internet Map",
         URL: "http://internet-map.net/",
-        description: "This website shows the most popular website on the internet. The blue circles that you see in the centre of the image denotes google as google is the most poplar website on the internet. Next to it is Facebook and very next is YouTube. You can figure it out by clicking on the particular circle.",
+        description: "The website has a plotting of the most famous websites surfed on the internet. The blue, yellow, and red dots do the representations. You can click on these particular dots and get the detailed description of how popular the websites are.",
         logo: ""
     },
     {
         name: "Pointer Pointer",
         URL: "http://www.pointerpointer.com/",
-        description: "It will tell you to click your mouse cursor or touch anywhere within the area provided. After you click on the desired point it will show message like locating your cursor. Within a couple of seconds a random image will appear on the screen like this.",
+        description: "The website will land on a page and asks for pointing anywhere. The pointing will then lead to a different image and then to another. It's a fun website and you will be amazed to see this one.",
         logo: ""
     },
     {
         name: "Zoomquilt",
         URL: "http://zoomquilt.org/",
-        description: "This website is really amazing. When you visit this website you will see an image and when you stay there for a couple of seconds the image gets zoomed in. The best part is that the image keeps on zooming. It is endless. The moment you think this is the end you get a twist. Try it out. You will love it.",
+        description: "The website lands on an image and it starts zooming. It will keep zooming and each time it zooms a new character and a new story is revealed. It is like a treat for those eyes.",
         logo: ""
     },
     {
         name: "Pixel Thoughts",
         URL: "http://www.pixelthoughts.co/",
-        description: "This website is really amazing. When you visit this website you will see an image and when you stay there for a couple of seconds the image gets zoomed in. The best part is that the image keeps on zooming. It is endless. The moment you think this is the end you get a twist. Try it out. You will love it.",
-        logo: ""
-    },
-    {
-        name: "Zoomquilt",
-        URL: "http://zoomquilt.org/",
-        description: "This website is really amazing. When you visit this website you will see an image and when you stay there for a couple of seconds the image gets zoomed in. The best part is that the image keeps on zooming. It is endless. The moment you think this is the end you get a twist. Try it out. You will love it.",
+        description: "The website is a 60 seconds meditation tool and a stressful buster. It'll help you get relieved of the thing that is bothering you. The music is charming after the meditation you feel connected and stressed free.",
         logo: ""
     },
     {
         name: "Big Think",
         URL: "http://bigthink.com/",
-        description: "It’s a place which shares ideas and insights from the most successful people around the world. You won’t get life-hacks here, but you will get real information. You will learn from the mistakes of the others and their successes too. A good place to get the content from people who know what they are talking about.",
+        description: "This website is literally a microdose of big ideas. It is also the world’s largest repository of lessons from the people, their great ideas, their livelihood and their immense hard work.",
         logo: ""
     },
     {
         name: "Nautilus",
         URL: "http://nautil.us/",
-        description: "A great place to read informative and impeccably written articles dealing with a multitude of topics which can be broadly divided into science, history, psychology, and autobiography. If you are looking to learn while passing time, there’s no better place.",
+        description: "This website is like the little encyclopedia for the learners across the world. It focuses on essays, blogs, poetry’s, fictions, gaming, and investigation reports. The use sciences, culture, and philosophy in the best way possible and keep the world connected.",
         logo: ""
     },
     {
         name: "Vsauce",
         URL: "http://www.vsauce.com/",
-        description: "Vsauce is an incredibly popular and successful YouTube channel (with several spinoff channels) that has attracted over 10 million subscribers. Videos focus on interesting educational content where channel creator Michael Stevens teaches viewers about all sorts of amazing topics, almost resembling a modern day Bill Nye the Science Guy.",
+        description: "This website is a recommendable place for all the science and math lovers. It has a YouTube channel with more than 10 million subscribers and focuses on jaw-dropping educational content. The creator Michael Stevens has a brilliant method of teaching and it is the best way possible.",
         logo: ""
     }
     ];
