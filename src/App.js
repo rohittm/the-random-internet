@@ -44,7 +44,7 @@ class App extends Component {
           <div className="inner">
             <span className="icon"></span>
             <h1 className="title">The <strong>Random</strong> Internet</h1>
-            <p className="description">You are just one click away from visiting the undiscovered gems of the internet.</p>
+            <p className="description">You are just one click away from visiting the random gems of the internet.</p>
             <ul className="actions">
               <li>
                 <button className="button" data-toggle="modal" data-target="#aboutModal">About</button>
