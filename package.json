@@ -20,8 +20,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "popper.js": "^1.14.3"
+    "gh-pages": "^1.1.0"
   },
   "homepage": "http://rohittm.github.io/"
 }
