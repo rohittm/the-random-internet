@@ -54,7 +54,7 @@ class App extends Component {
                 </div>
                 <div className="modal-body">
                   <h2><strong id="modal-siteName">Name</strong></h2>
-                  {<p id="modal-siteDescription">Website description will be updated soon! <span role="img">😊</span></p>}
+                  {<p id="modal-siteDescription">Website description will be updated soon! <span role="img" aria-labelledby="smile emoji">😊</span></p>}
                   <div id="modal-siteURL">
                     <a id="modal-goButton" target="_blank">
                       <button id="modal-letsGo"className="click-button-alt">Let's Go!</button>
@@ -78,11 +78,11 @@ class App extends Component {
                 </div>
                 <div className="modal-body">
                   <p>This website takes you to some of the most interesting websites on the internet.
-                    You can use this website anytime you want to. The main purpose of The Random Internet is to utilize the time whenever you are using the internet (or, on a break from your work, or whatever <span role="img">😅</span>) and don't know what to surf.
+                    You can use this website anytime you want to. The main purpose of The Random Internet is to utilize the time whenever you are using the internet (or, on a break from your work, or whatever <span role="img" aria-labelledby="shy emoji">😅</span>) and don't know what to surf.
                     The sites here are cool, interesting (AFAIK), and most importantly, impeccible usage of your time.
                   </p>
-                  <p>Don't believe me? You can look for yourself by click the big, "Let's Start" button on the homepage. Or, if you want, you can have your money back (Only, if you paid). Talking of money <span role="img">🤑</span>, you can donate me (or, buy me a coffee, <del>here</del> [Donate page in progress] 😅).</p>
-                  <p><span id="little-note"><strong>NOTE</strong>: The sites, and, the descriptions of the websites here are used from <a href="https://beebom.com/cool-interesting-websites/" target="_blank" rel="noopener noreferrer">this awesome list</a> (I'm planning to add more websites and update the descriptions soon, content writer needed 😓). The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</span></p>
+                  <p>Don't believe me? You can look for yourself by click the big, "Let's Start" button on the homepage. Or, if you want, you can have your money back (Only, if you paid). Talking of money <span role="img" aria-labelledby="money emoji">🤑</span>, you can donate me (or, buy me a coffee, <del>here</del> [Donate page in progress] <span role="img" aria-labelledby="shy emoji">😅</span>).</p>
+                  <p><span id="little-note"><strong>NOTE</strong>: The sites, and, the descriptions of the websites here are used from <a href="https://beebom.com/cool-interesting-websites/" target="_blank" rel="noopener noreferrer">this awesome list</a> (I'm planning to add more websites and update the descriptions soon, content writer needed <span role="img" aria-labelledby="sad emoji">😓</span>). The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</span></p>
                 </div>
               </div>
             </div>
