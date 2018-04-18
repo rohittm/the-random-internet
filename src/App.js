@@ -97,6 +97,7 @@ class App extends Component {
                   <p>The idea of this website is inspired from <a href="http://www.theuselessweb.com/" target="_blank" rel="noopener noreferrer">The Useless Web</a>.</p>
                   <p>Background gradients from <a href="https://uigradients.com/" rel="noopener noreferrer" target="_blank">uiGradients</a>.</p>
                   <p>You can see the <a href="https://github.com/rohittm/the-random-internet" rel="noopener noreferrer" target="_blank">project source</a> and <a href="https://github.com/rohittm/the-random-internet/blob/master/CONTRIBUTORS.md" rel="noopener noreferrer" target="_blank">list of contributors</a>.</p>
+                  <p>If you know a website that can be added to the list, <a href="https://github.com/rohittm/the-random-internet#adding-the-websites" rel="noopener noreferrer" target="_blank">here's</a> how you can add them.</p>
                   <p>Brought to you by <a href="https://rohitmotwani.com/" rel="noopener noreferrer" target="_blank">Rohit Motwani</a> (<a href="https://github.com/rohittm/" rel="noopener noreferrer" target="_blank">GitHub</a> | <a href="https://twitter.com/rohittm/" rel="noopener noreferrer" target="_blank">Twitter</a>)</p>
                   <p>Made using <a href="https://reactjs.org" rel="noopener noreferrer" target="_blank">React Js</a> and hosted on <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">GitHub Pages</a>.</p>
                 </div>
