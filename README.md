@@ -18,4 +18,33 @@ Made using [React Js](https://reactjs.org) and hosted on [GitHub Pages](https://
 
 ## Contributing
 
-Contribution Guidelines to be added soon.
+### Setting up the environment (Contributing to the app's code using React)
+
+Make sure your system has the node (8.10.0 or higher) and npm (5.6.0 or higher) installed. If yes, then follow these steps:
+
+1. Clone or Download this repo. ( `git clone https://github.com/rohittm/the-random-internet.git` )
+2. Enter this repository's directory ( `cd the-random-internet` )
+3. Install the npm dependencies ( `npm install` )
+4. Start the development environment ( `npm start` )
+
+### Adding the website(s) 
+
+1. Clone or Download this repo. ( `git clone https://github.com/rohittm/the-random-internet.git` )
+2. Enter this repository's directory ( `cd the-random-internet` )
+3. Open [sites.js](https://github.com/rohittm/the-random-internet/blob/master/src/assets/js/sites.js) in your favourite code editor (Mine is [VS Code](https://code.visualstudio.com/): `code src/assets/js/sites.js` )
+4. Add the site in this format: 
+``` 
+{
+        name: "",
+        URL: "",
+        description: "",
+        logo: ""
+}
+```
+In the end of the `sites` object.
+### How to contribute
+
+1. Make a fork of this repo.
+2. Make your changes.
+3. Create a [pull request](https://github.com/rohittm/the-random-internet/pulls).
+4. Wait for it to merged by one of the maintainers.
