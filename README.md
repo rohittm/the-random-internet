@@ -1,6 +1,6 @@
 # The Random Internet
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![HitCount](http://hits.dwyl.io/rohittm/the-random-internet.svg)](http://hits.dwyl.io/rohittm/the-random-internet) [![Dependency Status](https://david-dm.org/rohittm/the-random-internet.svg)](https://david-dm.org/rohittm/the-random-internet) [![devDependencies Status](https://david-dm.org/rohittm/the-random-internet/dev-status.svg)](https://david-dm.org/rohittm/the-random-internet?type=dev)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/rohittm/the-random-internet/issues) [![HitCount](http://hits.dwyl.io/rohittm/the-random-internet.svg)](http://hits.dwyl.io/rohittm/the-random-internet) [![Dependency Status](https://david-dm.org/rohittm/the-random-internet.svg)](https://david-dm.org/rohittm/the-random-internet) [![devDependencies Status](https://david-dm.org/rohittm/the-random-internet/dev-status.svg)](https://david-dm.org/rohittm/the-random-internet?type=dev)
 
 This website takes you to some of the most interesting websites on the internet. You can use this website anytime you want to. The main purpose of The Random Internet is to utilize the time whenever you are using the internet (or, on a break from your work, or whatever 😅) and don't know what to surf. The sites here are cool, interesting (AFAIK), and most importantly, impeccible usage of your time.
 
