@@ -20,7 +20,7 @@ Made using [React Js](https://reactjs.org) and hosted on [GitHub Pages](https://
 
 ### Setting up the environment (Contributing to the app's code using React)
 
-Make sure your system has the node (8.10.0 or higher) and npm (5.6.0 or higher) installed. If yes, then follow these steps:
+Make sure your system has the `node` (>=8.10.0) and `npm` (>=5.6.0) installed. If yes, then follow these steps:
 
 1. Clone or Download this repo. ( `git clone https://github.com/rohittm/the-random-internet.git` )
 2. Enter this repository's directory ( `cd the-random-internet` )
