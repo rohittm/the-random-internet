@@ -190,6 +190,12 @@ let sites = [
         URL: "http://www.vsauce.com/",
         description: "This website is a recommendable place for all the science and math lovers. It has a YouTube channel with more than 10 million subscribers and focuses on jaw-dropping educational content. The creator Michael Stevens has a brilliant method of teaching and it is the best way possible.",
         logo: ""
+    },
+    {
+        name: "9 Eyes",
+        URL: "http://www.9-eyes.com/",
+        description: "This website is a interesting place where you will find some of the amazing google street view pictures. Some of them will be soothing to the eyes while some will drive you crazy. So what are you waiting for? ",
+        logo: ""
     }
 ];
 
