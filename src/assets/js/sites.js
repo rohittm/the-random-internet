@@ -196,7 +196,79 @@ let sites = [
         URL: "http://www.9-eyes.com/",
         description: "This website is a interesting place where you will find some of the amazing google street view pictures. Some of them will be soothing to the eyes while some will drive you crazy. So what are you waiting for? ",
         logo: ""
-    }
+    },
+	{
+        name: "radio-garden",
+        URL: "http://radio.garden/",
+        description: "Drag the circle around the world map and get live radio feeds from within that circle, globally !",
+        logo: ""
+    },
+    {
+        name: "Mathway",
+        URL: "https://www.mathway.com/Algebra/",
+        description: "An interactive website to solve maths problems, from Pre-Algebra to Chemical equations",
+        logo: ""
+    },
+    {
+        name: "MyFridgeFood",
+        URL: "http://www.myfridgefood.com/",
+        description: "Not your cliché recipe website. Check off the ingredients that you have to find a bunch of recipes you can make.",
+        logo: ""
+    },
+    {
+        name: "Have I Been Pwned?",
+        URL: "https://haveibeenpwned.com/",
+        description: "Check if you have an account that has been compromised in a data breach. Site contains records of over 4.8 billion accounts from over 251 data breaches.",
+        logo: "" 
+    },
+    {
+        name: "codemyui",
+        URL: "https://codemyui.com/",
+        description: "The site has Handpicked beautiful web elements. Use them in your web projects or find inspiration.",
+        logo: ""
+     },
+     {
+        name: "Patatap",
+	URL: "http://www.patatap.com",
+        description: "An interactive site that responds to the keystrokes with small animations and sound. Type in sentences to see the magic !",
+        logo: ""
+     },
+     {
+        name: "Whiteboard",
+        URL: "https://witeboard.com/",
+        description: "A real-time whiteboard for your team. No signups required.",
+        logo: ""
+     },
+     {
+        name: "Nanolist",
+        URL: "https://nanolist.im",
+        description: "Nanolist is a minimalist todo list that does noting except todos. You can also sync it between multiple devices",
+        logo: "" 
+     },
+     {
+        name: "Anime-openings",
+        URL: "https://openings.moe/",
+        description: "Free anime radio, listen or download anime opening and ending videos.",
+        logo: ""
+     },
+     {
+        name: "PolishMyWriting",
+        URL: "http://www.polishmywriting.com",
+        description: "Paste your text and this site will check for spelling error and give feedback on your writing.",
+        logo: ""
+     },
+     {
+        name: "Omive",
+        URL: "http://www.omive.com/",
+        description: "A TV and Film database. You can apply filters and do some advance searching.",
+        logo: ""
+      },
+      {
+        name: "Ninite",
+        URL: "https://ninite.com/",
+        description: "Select programs from a huge list, get a SINGLE installer that will download and install the latest version of everything you selected with no adware or spam",
+        logo: ""
+     }
 ];
 
 export default sites;
