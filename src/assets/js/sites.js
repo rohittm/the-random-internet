@@ -268,7 +268,7 @@ let sites = [
         URL: "https://ninite.com/",
         description: "Select programs from a huge list, get a SINGLE installer that will download and install the latest version of everything you selected with no adware or spam",
         logo: ""
-     },
+     }
 ];
 
 export default sites;
