@@ -196,6 +196,12 @@ let sites = [
         URL: "http://www.9-eyes.com/",
         description: "This website is a interesting place where you will find some of the amazing google street view pictures. Some of them will be soothing to the eyes while some will drive you crazy. So what are you waiting for? ",
         logo: ""
+    },
+	{
+        name: "A Soft Murmur",
+        URL: "https://asoftmurmur.com/",
+        description: "This website is a interesting place which contains sliders to choose your best mix to avoid distraction. It’s impossible not to try every one and each has its own unique charm (you could listen to ‘waves’ all day every day). ",
+        logo: ""
     }
 ];
 
