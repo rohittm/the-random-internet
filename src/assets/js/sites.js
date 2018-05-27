@@ -268,7 +268,13 @@ let sites = [
         URL: "https://ninite.com/",
         description: "Select programs from a huge list, get a SINGLE installer that will download and install the latest version of everything you selected with no adware or spam",
         logo: ""
+     },
+        name: "A Soft Murmur",
+        URL: "https://asoftmurmur.com/",
+        description: "It provides with sounds of the nature to wash away distraction and to produce your extraordinary outcome. You want to keep some attention while doing your work then go for it.",
+        logo: ""
      }
+
 ];
 
 export default sites;
