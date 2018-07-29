@@ -273,6 +273,11 @@ let sites = [
         URL: "https://asoftmurmur.com/",
         description: "It provides with sounds of the nature to wash away distraction and to produce your extraordinary outcome. You want to keep some attention while doing your work then go for it.",
         logo: ""
+     },
+        name: "Camel Camel Camel",
+        URL: "https://uk.camelcamelcamel.com/",
+        description: "Everybody loves to shop from Amazon. This is a free Amazon price tracker that monitors millions of products and alerts you when prices drop, helping you decide when to buy.",
+        logo: ""
      }
 
 ];
