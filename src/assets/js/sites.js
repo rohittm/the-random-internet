@@ -6,9 +6,9 @@ let sites = [
         logo: ""
     },
     {
-        name: "Little Alchemy",
-        URL: "https://littlealchemy.com/",
-        description: "The website leads to a drag and drop game where players can combine the elements, and then the results of those combinations, into hundreds of items including ghosts, dinosaurs, and spaceships and you can to create the entire world with them.",
+        name: "Every Day I'm Hustlin",
+        URL: "http://www.everydayim.com/",
+        description: "The website leads to interactive show which celebrates everyday's Hustle. ",
         logo: ""
     },
     {
