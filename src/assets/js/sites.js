@@ -1,5 +1,17 @@
 let sites = [
     {
+        name: "Has the Large Hadron Collider destroyed the world yet?",
+        URL: "http://hasthelargehadroncolliderdestroyedtheworldyet.com/",
+        description: "The website leads to place where you will get the answer to the above question.",
+        logo: ""
+    },
+    {
+        name: "Little Alchemy",
+        URL: "https://littlealchemy.com/",
+        description: "The website leads to a drag and drop game where players can combine the elements, and then the results of those combinations, into hundreds of items including ghosts, dinosaurs, and spaceships and you can to create the entire world with them.",
+        logo: ""
+    },
+    {
         name: "Little Alchemy",
         URL: "https://littlealchemy.com/",
         description: "The website leads to a drag and drop game where players can combine the elements, and then the results of those combinations, into hundreds of items including ghosts, dinosaurs, and spaceships and you can to create the entire world with them.",
