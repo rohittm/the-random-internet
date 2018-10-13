@@ -273,6 +273,12 @@ let sites = [
         URL: "https://asoftmurmur.com/",
         description: "It provides with sounds of the nature to wash away distraction and to produce your extraordinary outcome. You want to keep some attention while doing your work then go for it.",
         logo: ""
+     },
+     {
+       name: "Level Up Life",
+       URL: "https://lvluplife.com/",
+       description: "Get some real life challenging problems by building your own profile and deal with your problems from simple to high level. ",
+       logo: ""
      }
 
 ];
