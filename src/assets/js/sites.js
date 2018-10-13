@@ -12,6 +12,12 @@ let sites = [
         logo: ""
     },
     {
+        name: "CRACKABLES",
+        URL: "https://crackables.oneplus.com",
+        description: "OnePlus launches Crackables – a series of crypto-challenges for gamers around the world.With its tech-savvy users in mind, OnePlus, in collaboration with Google, has developed a challenging series of Android-based crypto-puzzles, open to anyone to participate.",
+        logo: ""
+    },
+    {
         name: "Mental Floss",
         URL: "http://mentalfloss.com/",
         description: "A page where knowledge junkies come to get their fix of trivia-tastic information and enhance it. It gives entertainment news, human interest, health ,and beauty tips, etc. It gives fun and interesting facts that can blow up your mind",
