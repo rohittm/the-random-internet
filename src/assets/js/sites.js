@@ -279,7 +279,19 @@ let sites = [
        URL: "https://lvluplife.com/",
        description: "Get some real life challenging problems by building your own profile and deal with your problems from simple to high level. ",
        logo: ""
-     }
+     },
+     {
+        name: "ThisPersonDoesNotExist",
+        URL: "https://thispersondoesnotexist.com/",
+        description: "The website uses a generative adversarial network (GAN) to create images of people who do not exist. The images are so realistic that it is difficult to tell that they are not real people. The website has been used to create fake social media profiles, online dating profiles, and even deepfakes.",
+        logo: ""
+      },
+      {
+        name: "Bouncy Balls",
+        URL: "https://bouncyballs.org/",
+        description: "Bouncy Balls can be used to manage noise in a classroom. It uses a microphone to detect sound levels and then displays bouncing balls on the screen that move according to the noise. The balls can be customized with different themes and emojis.        ",
+        logo: ""
+      }
 
 ];
 
