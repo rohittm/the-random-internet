@@ -280,7 +280,13 @@ let sites = [
        description: "Get some real life challenging problems by building your own profile and deal with your problems from simple to high level. ",
        logo: ""
      }
-
+,
+    {
+        name: "StagePeek",
+        URL: "https://stagepeek.live/",
+        description: "Interactive 2D seating maps and 3D concert stage-view simulator covering 201 stadiums and arenas worldwide with 1x-10x zoom before you buy tickets.",
+        logo: ""
+    }
 ];
 
 export default sites;
